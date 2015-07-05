@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Cocos2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\prog50049_cocos_tinyxml2Scene.cpp">
+      <Filter>Sheridan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MapLoader.cpp">
+      <Filter>Sheridan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Layer.cpp">
+      <Filter>Sheridan</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Cocos2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\prog50049_cocos_tinyxml2Scene.h">
+      <Filter>Sheridan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MapLoader.h">
+      <Filter>Sheridan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Layer.h">
+      <Filter>Sheridan</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{241f0706-5201-4948-8e85-a08afc0dd759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{2c927e36-dc0d-4728-9adb-9a47fab87f7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cocos2d">
+      <UniqueIdentifier>{e5697dc6-9507-41e8-9fda-8033cb3152aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sheridan">
+      <UniqueIdentifier>{310e0a8d-bf33-4a54-9897-799bf0f062ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
